@@ -1,0 +1,1 @@
+# applovin-adapter-swift-package
