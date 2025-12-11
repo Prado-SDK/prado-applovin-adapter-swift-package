@@ -1,0 +1,52 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PradoApplovinAdapter
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AppLovinSDK
+import Foundation
+@_exported import PradoApplovinAdapter
+import PradoSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc(PradoMediationAdapter) public class PradoMediationAdapter : AppLovinSDK.ALMediationAdapter, AppLovinSDK.MAAdViewAdapter, AppLovinSDK.MAInterstitialAdapter, AppLovinSDK.MARewardedAdapter, PradoSDK.PradoInitDelegate, PradoSDK.PradoBannerDelegate, PradoSDK.PradoInterstitialDelegate, PradoSDK.PradoRewardedDelegate {
+  @objc override dynamic public func initialize(with parameters: AppLovinSDK.MAAdapterInitializationParameters, completionHandler: @escaping (AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> Swift.Void)
+  public func SDKVersion() -> Swift.String
+  public func adapterVersion() -> Swift.String
+  @objc public func onInitSuccess()
+  @objc public func onInitError(_ error: Swift.String)
+  @objc public func loadAdViewAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, adFormat: AppLovinSDK.MAAdFormat, andNotify delegate: AppLovinSDK.MAAdViewAdapterDelegate)
+  @objc public func onBannerAdLoaded(pradoBannerView: PradoSDK.PradoBannerView)
+  @objc public func onBannerAdFailedToLoad(pradoBannerView: PradoSDK.PradoBannerView, error: PradoSDK.PradoError)
+  @objc public func onBannerAdShown(pradoBannerView: PradoSDK.PradoBannerView)
+  @objc public func onBannerAdFailedToShow(pradoBannerView: PradoSDK.PradoBannerView, error: PradoSDK.PradoError)
+  @objc public func onBannerAdImpression(pradoBannerView: PradoSDK.PradoBannerView)
+  @objc public func onBannerAdClosed(pradoBannerView: PradoSDK.PradoBannerView)
+  @objc public func loadInterstitialAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MAInterstitialAdapterDelegate)
+  @objc public func showInterstitialAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MAInterstitialAdapterDelegate)
+  @objc public func onInterstitialAdLoaded(pradoInterstitialAd ad: PradoSDK.PradoInterstitialAd)
+  @objc public func onInterstitialAdFailedToLoad(pradoError error: PradoSDK.PradoError)
+  @objc public func onInterstitialAdShown(pradoInterstitialAd ad: PradoSDK.PradoInterstitialAd)
+  @objc public func onInterstitialAdFailedToShow(pradoInterstitialAd: PradoSDK.PradoInterstitialAd, pradoError: PradoSDK.PradoError)
+  @objc public func onInterstitialImpression(pradoInterstitialAd: PradoSDK.PradoInterstitialAd)
+  @objc public func onInterstitialAdClosed(pradoInterstitialAd ad: PradoSDK.PradoInterstitialAd)
+  @objc public func loadRewardedAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MARewardedAdapterDelegate)
+  @objc public func showRewardedAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MARewardedAdapterDelegate)
+  @objc public func onRewardedAdLoaded(pradoRewardedAd ad: PradoSDK.PradoRewardedAd)
+  @objc public func onRewardedAdFailedToLoad(pradoError: PradoSDK.PradoError)
+  @objc public func onRewardedAdShown(pradoRewardedAd ad: PradoSDK.PradoRewardedAd)
+  @objc public func onRewardedAdFailedToShow(pradoRewardedAd ad: PradoSDK.PradoRewardedAd, pradoError: PradoSDK.PradoError)
+  @objc public func onRewardedImpression(pradoRewardedAd ad: PradoSDK.PradoRewardedAd)
+  @objc public func onRewardReceived(pradoRewardedAd ad: PradoSDK.PradoRewardedAd)
+  @objc public func onRewardedAdClosed(pradoRewardedAd: PradoSDK.PradoRewardedAd)
+  @objc override dynamic public func destroy()
+  @objc override dynamic public init(sdk: AppLovinSDK.ALSdk)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(PradoAppLovinSDKInfo) public class PradoAppLovinSDKInfo : ObjectiveC.NSObject {
+  public static func getSdkVersion() -> Swift.String
+  public static func networkSDKVersion() -> Swift.String
+  public static func adapterSDKVersion() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}

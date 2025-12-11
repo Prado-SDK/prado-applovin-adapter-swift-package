@@ -1,0 +1,1273 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "PradoApplovinAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PradoSDK",
+        "printedName": "PradoSDK",
+        "declKind": "Import",
+        "moduleName": "PradoApplovinAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PradoMediationAdapter",
+        "printedName": "PradoMediationAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(with:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterInitializationParameters",
+                "printedName": "AppLovinSDK.MAAdapterInitializationParameters",
+                "usr": "c:objc(pl)MAAdapterInitializationParameters"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AppLovinSDK.MAAdapterInitializationStatus, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MAAdapterInitializationStatus",
+                        "printedName": "AppLovinSDK.MAAdapterInitializationStatus",
+                        "usr": "c:@E@MAAdapterInitializationStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)initializeWithParameters:completionHandler:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C10initialize4with17completionHandlerySo33MAAdapterInitializationParameters_p_ySo0iJ6StatusV_SSSgtctF",
+            "moduleName": "PradoApplovinAdapter",
+            "overriding": true,
+            "objc_name": "initializeWithParameters:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "SDKVersion",
+            "printedName": "SDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PradoApplovinAdapter0a9MediationC0C10SDKVersionSSyF",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C10SDKVersionSSyF",
+            "moduleName": "PradoApplovinAdapter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PradoApplovinAdapter0a9MediationC0C14adapterVersionSSyF",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C14adapterVersionSSyF",
+            "moduleName": "PradoApplovinAdapter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInitSuccess",
+            "printedName": "onInitSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onInitSuccess",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C13onInitSuccessyyF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onInitSuccess",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInitError",
+            "printedName": "onInitError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onInitError:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C11onInitErroryySSF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onInitError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAdViewAd",
+            "printedName": "loadAdViewAd(for:adFormat:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdFormat",
+                "printedName": "AppLovinSDK.MAAdFormat",
+                "usr": "c:objc(cs)MAAdFormat"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdViewAdapterDelegate",
+                "printedName": "AppLovinSDK.MAAdViewAdapterDelegate",
+                "usr": "c:objc(pl)MAAdViewAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)loadAdViewAdForParameters:adFormat:andNotify:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C010loadAdViewF03for8adFormat9andNotifyySo27MAAdapterResponseParameters_p_So04MAAdJ0CSo0pgC8Delegate_ptF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "loadAdViewAdForParameters:adFormat:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdLoaded",
+            "printedName": "onBannerAdLoaded(pradoBannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoBannerView",
+                "printedName": "PradoSDK.PradoBannerView",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onBannerAdLoadedWithPradoBannerView:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C16onBannerAdLoaded05pradoF4Viewy0A3SDK0afJ0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onBannerAdLoadedWithPradoBannerView:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdFailedToLoad",
+            "printedName": "onBannerAdFailedToLoad(pradoBannerView:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoBannerView",
+                "printedName": "PradoSDK.PradoBannerView",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoError",
+                "printedName": "PradoSDK.PradoError",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onBannerAdFailedToLoadWithPradoBannerView:error:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C22onBannerAdFailedToLoad05pradoF4View5errory0A3SDK0afL0C_AG0A5ErrorCtF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onBannerAdFailedToLoadWithPradoBannerView:error:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdShown",
+            "printedName": "onBannerAdShown(pradoBannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoBannerView",
+                "printedName": "PradoSDK.PradoBannerView",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onBannerAdShownWithPradoBannerView:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C15onBannerAdShown05pradoF4Viewy0A3SDK0afJ0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onBannerAdShownWithPradoBannerView:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdFailedToShow",
+            "printedName": "onBannerAdFailedToShow(pradoBannerView:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoBannerView",
+                "printedName": "PradoSDK.PradoBannerView",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoError",
+                "printedName": "PradoSDK.PradoError",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onBannerAdFailedToShowWithPradoBannerView:error:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C22onBannerAdFailedToShow05pradoF4View5errory0A3SDK0afL0C_AG0A5ErrorCtF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onBannerAdFailedToShowWithPradoBannerView:error:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdImpression",
+            "printedName": "onBannerAdImpression(pradoBannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoBannerView",
+                "printedName": "PradoSDK.PradoBannerView",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onBannerAdImpressionWithPradoBannerView:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C20onBannerAdImpression05pradoF4Viewy0A3SDK0afJ0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onBannerAdImpressionWithPradoBannerView:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBannerAdClosed",
+            "printedName": "onBannerAdClosed(pradoBannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoBannerView",
+                "printedName": "PradoSDK.PradoBannerView",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onBannerAdClosedWithPradoBannerView:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C16onBannerAdClosed05pradoF4Viewy0A3SDK0afJ0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onBannerAdClosedWithPradoBannerView:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitialAd",
+            "printedName": "loadInterstitialAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAInterstitialAdapterDelegate",
+                "printedName": "AppLovinSDK.MAInterstitialAdapterDelegate",
+                "usr": "c:objc(pl)MAInterstitialAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)loadInterstitialAdForParameters:andNotify:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C18loadInterstitialAd3for9andNotifyySo27MAAdapterResponseParameters_p_So014MAInterstitialC8Delegate_ptF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "loadInterstitialAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInterstitialAd",
+            "printedName": "showInterstitialAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAInterstitialAdapterDelegate",
+                "printedName": "AppLovinSDK.MAInterstitialAdapterDelegate",
+                "usr": "c:objc(pl)MAInterstitialAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)showInterstitialAdForParameters:andNotify:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C18showInterstitialAd3for9andNotifyySo27MAAdapterResponseParameters_p_So014MAInterstitialC8Delegate_ptF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "showInterstitialAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdLoaded",
+            "printedName": "onInterstitialAdLoaded(pradoInterstitialAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoInterstitialAd",
+                "printedName": "PradoSDK.PradoInterstitialAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onInterstitialAdLoadedWithPradoInterstitialAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C22onInterstitialAdLoaded05pradofG0y0A3SDK0afG0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onInterstitialAdLoadedWithPradoInterstitialAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdFailedToLoad",
+            "printedName": "onInterstitialAdFailedToLoad(pradoError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoError",
+                "printedName": "PradoSDK.PradoError",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onInterstitialAdFailedToLoadWithPradoError:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C28onInterstitialAdFailedToLoad10pradoErrory0A3SDK0aL0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onInterstitialAdFailedToLoadWithPradoError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdShown",
+            "printedName": "onInterstitialAdShown(pradoInterstitialAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoInterstitialAd",
+                "printedName": "PradoSDK.PradoInterstitialAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onInterstitialAdShownWithPradoInterstitialAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C21onInterstitialAdShown05pradofG0y0A3SDK0afG0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onInterstitialAdShownWithPradoInterstitialAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdFailedToShow",
+            "printedName": "onInterstitialAdFailedToShow(pradoInterstitialAd:pradoError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoInterstitialAd",
+                "printedName": "PradoSDK.PradoInterstitialAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoInterstitialAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoError",
+                "printedName": "PradoSDK.PradoError",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onInterstitialAdFailedToShowWithPradoInterstitialAd:pradoError:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C28onInterstitialAdFailedToShow05pradofG00K5Errory0A3SDK0afG0C_AG0aL0CtF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onInterstitialAdFailedToShowWithPradoInterstitialAd:pradoError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialImpression",
+            "printedName": "onInterstitialImpression(pradoInterstitialAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoInterstitialAd",
+                "printedName": "PradoSDK.PradoInterstitialAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onInterstitialImpressionWithPradoInterstitialAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C24onInterstitialImpression05pradoF2Ady0A3SDK0afI0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onInterstitialImpressionWithPradoInterstitialAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInterstitialAdClosed",
+            "printedName": "onInterstitialAdClosed(pradoInterstitialAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoInterstitialAd",
+                "printedName": "PradoSDK.PradoInterstitialAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onInterstitialAdClosedWithPradoInterstitialAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C22onInterstitialAdClosed05pradofG0y0A3SDK0afG0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onInterstitialAdClosedWithPradoInterstitialAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MARewardedAdapterDelegate",
+                "printedName": "AppLovinSDK.MARewardedAdapterDelegate",
+                "usr": "c:objc(pl)MARewardedAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)loadRewardedAdForParameters:andNotify:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C14loadRewardedAd3for9andNotifyySo27MAAdapterResponseParameters_p_So010MARewardedC8Delegate_ptF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "loadRewardedAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showRewardedAd",
+            "printedName": "showRewardedAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MARewardedAdapterDelegate",
+                "printedName": "AppLovinSDK.MARewardedAdapterDelegate",
+                "usr": "c:objc(pl)MARewardedAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)showRewardedAdForParameters:andNotify:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C14showRewardedAd3for9andNotifyySo27MAAdapterResponseParameters_p_So010MARewardedC8Delegate_ptF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "showRewardedAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdLoaded",
+            "printedName": "onRewardedAdLoaded(pradoRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoRewardedAd",
+                "printedName": "PradoSDK.PradoRewardedAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onRewardedAdLoadedWithPradoRewardedAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C18onRewardedAdLoaded05pradofG0y0A3SDK0afG0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onRewardedAdLoadedWithPradoRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdFailedToLoad",
+            "printedName": "onRewardedAdFailedToLoad(pradoError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoError",
+                "printedName": "PradoSDK.PradoError",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onRewardedAdFailedToLoadWithPradoError:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C24onRewardedAdFailedToLoad10pradoErrory0A3SDK0aL0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onRewardedAdFailedToLoadWithPradoError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdShown",
+            "printedName": "onRewardedAdShown(pradoRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoRewardedAd",
+                "printedName": "PradoSDK.PradoRewardedAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onRewardedAdShownWithPradoRewardedAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C17onRewardedAdShown05pradofG0y0A3SDK0afG0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onRewardedAdShownWithPradoRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdFailedToShow",
+            "printedName": "onRewardedAdFailedToShow(pradoRewardedAd:pradoError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoRewardedAd",
+                "printedName": "PradoSDK.PradoRewardedAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoRewardedAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoError",
+                "printedName": "PradoSDK.PradoError",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onRewardedAdFailedToShowWithPradoRewardedAd:pradoError:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C24onRewardedAdFailedToShow05pradofG00K5Errory0A3SDK0afG0C_AG0aL0CtF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onRewardedAdFailedToShowWithPradoRewardedAd:pradoError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedImpression",
+            "printedName": "onRewardedImpression(pradoRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoRewardedAd",
+                "printedName": "PradoSDK.PradoRewardedAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onRewardedImpressionWithPradoRewardedAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C20onRewardedImpression05pradoF2Ady0A3SDK0afI0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onRewardedImpressionWithPradoRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardReceived",
+            "printedName": "onRewardReceived(pradoRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoRewardedAd",
+                "printedName": "PradoSDK.PradoRewardedAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onRewardReceivedWithPradoRewardedAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C16onRewardReceived15pradoRewardedAdy0A3SDK0aiJ0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onRewardReceivedWithPradoRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardedAdClosed",
+            "printedName": "onRewardedAdClosed(pradoRewardedAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PradoRewardedAd",
+                "printedName": "PradoSDK.PradoRewardedAd",
+                "usr": "c:@M@PradoSDK@objc(cs)PradoRewardedAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)onRewardedAdClosedWithPradoRewardedAd:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C18onRewardedAdClosed05pradofG0y0A3SDK0afG0C_tF",
+            "moduleName": "PradoApplovinAdapter",
+            "objc_name": "onRewardedAdClosedWithPradoRewardedAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)destroy",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C7destroyyyF",
+            "moduleName": "PradoApplovinAdapter",
+            "overriding": true,
+            "objc_name": "destroy",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdk:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PradoMediationAdapter",
+                "printedName": "PradoApplovinAdapter.PradoMediationAdapter",
+                "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ALSdk",
+                "printedName": "AppLovinSDK.ALSdk",
+                "usr": "c:objc(cs)ALSdk"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)initWithSdk:",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C3sdkACSo5ALSdkC_tcfc",
+            "moduleName": "PradoApplovinAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithSdk:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter",
+        "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C",
+        "moduleName": "PradoApplovinAdapter",
+        "objc_name": "PradoMediationAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ALMediationAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AppLovinSDK.ALMediationAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PradoInitDelegate",
+            "printedName": "PradoInitDelegate",
+            "usr": "c:@M@PradoSDK@objc(pl)PradoInitDelegate",
+            "mangledName": "$s8PradoSDK0A12InitDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PradoBannerDelegate",
+            "printedName": "PradoBannerDelegate",
+            "usr": "c:@M@PradoSDK@objc(pl)PradoBannerDelegate",
+            "mangledName": "$s8PradoSDK0A14BannerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PradoInterstitialDelegate",
+            "printedName": "PradoInterstitialDelegate",
+            "usr": "c:@M@PradoSDK@objc(pl)PradoInterstitialDelegate",
+            "mangledName": "$s8PradoSDK0A20InterstitialDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PradoRewardedDelegate",
+            "printedName": "PradoRewardedDelegate",
+            "usr": "c:@M@PradoSDK@objc(pl)PradoRewardedDelegate",
+            "mangledName": "$s8PradoSDK0A16RewardedDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SDKInitDelegate",
+            "printedName": "SDKInitDelegate",
+            "usr": "c:@M@PradoSDK@objc(pl)SDKInitDelegate",
+            "mangledName": "$s8PradoSDK15SDKInitDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PradoApplovinAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PradoSDK",
+        "printedName": "PradoSDK",
+        "declKind": "Import",
+        "moduleName": "PradoApplovinAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PradoAppLovinSDKInfo",
+        "printedName": "PradoAppLovinSDKInfo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getSdkVersion",
+            "printedName": "getSdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PradoApplovinAdapter0A15AppLovinSDKInfoC13getSdkVersionSSyFZ",
+            "mangledName": "$s20PradoApplovinAdapter0A15AppLovinSDKInfoC13getSdkVersionSSyFZ",
+            "moduleName": "PradoApplovinAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkSDKVersion",
+            "printedName": "networkSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PradoApplovinAdapter0A15AppLovinSDKInfoC17networkSDKVersionSSyFZ",
+            "mangledName": "$s20PradoApplovinAdapter0A15AppLovinSDKInfoC17networkSDKVersionSSyFZ",
+            "moduleName": "PradoApplovinAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterSDKVersion",
+            "printedName": "adapterSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PradoApplovinAdapter0A15AppLovinSDKInfoC17adapterSDKVersionSSyFZ",
+            "mangledName": "$s20PradoApplovinAdapter0A15AppLovinSDKInfoC17adapterSDKVersionSSyFZ",
+            "moduleName": "PradoApplovinAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PradoAppLovinSDKInfo",
+                "printedName": "PradoApplovinAdapter.PradoAppLovinSDKInfo",
+                "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoAppLovinSDKInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoAppLovinSDKInfo(im)init",
+            "mangledName": "$s20PradoApplovinAdapter0A15AppLovinSDKInfoCACycfc",
+            "moduleName": "PradoApplovinAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoAppLovinSDKInfo",
+        "mangledName": "$s20PradoApplovinAdapter0A15AppLovinSDKInfoC",
+        "moduleName": "PradoApplovinAdapter",
+        "objc_name": "PradoAppLovinSDKInfo",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

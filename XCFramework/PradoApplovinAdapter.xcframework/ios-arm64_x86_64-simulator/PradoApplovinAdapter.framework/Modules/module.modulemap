@@ -1,0 +1,6 @@
+framework module PradoApplovinAdapter {
+  umbrella header "PradoApplovinAdapter.h"
+
+  export *
+  module * { export * }
+}
