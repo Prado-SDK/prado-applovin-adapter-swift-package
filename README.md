@@ -12,7 +12,7 @@ To integrate the Prado SDK into your Xcode project using Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Prado-SDK/applovin-adapter-swift-package.git", "2.0.0"..<"2.1.0")
+    .package(url: "https://github.com/Prado-SDK/applovin-adapter-swift-package.git", "2.1.0"..<"2.2.0")
 ]
 ```
 
