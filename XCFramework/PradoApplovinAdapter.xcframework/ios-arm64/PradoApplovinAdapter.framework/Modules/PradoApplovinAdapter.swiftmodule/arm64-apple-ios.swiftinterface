@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PradoApplovinAdapter
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PradoApplovinAdapter
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AppLovinSDK
 import Foundation
 @_exported import PradoApplovinAdapter
@@ -9,29 +9,32 @@ import PradoSDK
 import Swift
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc(PradoMediationAdapter) public class PradoMediationAdapter : AppLovinSDK.ALMediationAdapter, AppLovinSDK.MAAdViewAdapter, AppLovinSDK.MAInterstitialAdapter, AppLovinSDK.MARewardedAdapter, PradoSDK.PradoInitDelegate, PradoSDK.PradoBannerDelegate, PradoSDK.PradoInterstitialDelegate, PradoSDK.PradoRewardedDelegate {
-  @objc override dynamic public func initialize(with parameters: AppLovinSDK.MAAdapterInitializationParameters, completionHandler: @escaping (AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public func initialize(with parameters: any AppLovinSDK.MAAdapterInitializationParameters, completionHandler: @escaping (AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> Swift.Void)
+  #endif
   public func SDKVersion() -> Swift.String
   public func adapterVersion() -> Swift.String
   @objc public func onInitSuccess()
   @objc public func onInitError(_ error: Swift.String)
-  @objc public func loadAdViewAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, adFormat: AppLovinSDK.MAAdFormat, andNotify delegate: AppLovinSDK.MAAdViewAdapterDelegate)
+  @objc public func loadAdViewAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, adFormat: AppLovinSDK.MAAdFormat, andNotify delegate: any AppLovinSDK.MAAdViewAdapterDelegate)
   @objc public func onBannerAdLoaded(pradoBannerView: PradoSDK.PradoBannerView)
   @objc public func onBannerAdFailedToLoad(pradoBannerView: PradoSDK.PradoBannerView, error: PradoSDK.PradoError)
   @objc public func onBannerAdShown(pradoBannerView: PradoSDK.PradoBannerView)
   @objc public func onBannerAdFailedToShow(pradoBannerView: PradoSDK.PradoBannerView, error: PradoSDK.PradoError)
   @objc public func onBannerAdImpression(pradoBannerView: PradoSDK.PradoBannerView)
   @objc public func onBannerAdClosed(pradoBannerView: PradoSDK.PradoBannerView)
-  @objc public func loadInterstitialAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MAInterstitialAdapterDelegate)
-  @objc public func showInterstitialAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MAInterstitialAdapterDelegate)
+  @objc public func loadInterstitialAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: any AppLovinSDK.MAInterstitialAdapterDelegate)
+  @objc public func showInterstitialAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: any AppLovinSDK.MAInterstitialAdapterDelegate)
   @objc public func onInterstitialAdLoaded(pradoInterstitialAd ad: PradoSDK.PradoInterstitialAd)
   @objc public func onInterstitialAdFailedToLoad(pradoError error: PradoSDK.PradoError)
   @objc public func onInterstitialAdShown(pradoInterstitialAd ad: PradoSDK.PradoInterstitialAd)
   @objc public func onInterstitialAdFailedToShow(pradoInterstitialAd: PradoSDK.PradoInterstitialAd, pradoError: PradoSDK.PradoError)
   @objc public func onInterstitialImpression(pradoInterstitialAd: PradoSDK.PradoInterstitialAd)
   @objc public func onInterstitialAdClosed(pradoInterstitialAd ad: PradoSDK.PradoInterstitialAd)
-  @objc public func loadRewardedAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MARewardedAdapterDelegate)
-  @objc public func showRewardedAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MARewardedAdapterDelegate)
+  @objc public func loadRewardedAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: any AppLovinSDK.MARewardedAdapterDelegate)
+  @objc public func showRewardedAd(for parameters: any AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: any AppLovinSDK.MARewardedAdapterDelegate)
   @objc public func onRewardedAdLoaded(pradoRewardedAd ad: PradoSDK.PradoRewardedAd)
   @objc public func onRewardedAdFailedToLoad(pradoError: PradoSDK.PradoError)
   @objc public func onRewardedAdShown(pradoRewardedAd ad: PradoSDK.PradoRewardedAd)
@@ -40,7 +43,9 @@ import _StringProcessing
   @objc public func onRewardReceived(pradoRewardedAd ad: PradoSDK.PradoRewardedAd)
   @objc public func onRewardedAdClosed(pradoRewardedAd: PradoSDK.PradoRewardedAd)
   @objc override dynamic public func destroy()
+  @available(*, deprecated, message: "This API is deprecated and will be removed in a future SDK version. Please use `-[ALMediationAdapter init] instead.")
   @objc override dynamic public init(sdk: AppLovinSDK.ALSdk)
+  @objc override dynamic public init()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(PradoAppLovinSDKInfo) public class PradoAppLovinSDKInfo : ObjectiveC.NSObject {
@@ -49,4 +54,7 @@ import _StringProcessing
   public static func adapterSDKVersion() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
+}
+public enum SDKMetadata {
+  public static let version: Swift.String
 }

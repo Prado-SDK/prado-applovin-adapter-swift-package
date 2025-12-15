@@ -8,73 +8,37 @@
 		<data>
 		nSgpMgN8g8VYvymUD6ick3UdcKg=
 		</data>
-		<key>Frameworks/PradoSDK.framework/Info.plist</key>
-		<data>
-		a7mjadTQmALQgqltFWmYA45vd9g=
-		</data>
-		<key>Frameworks/PradoSDK.framework/PradoSDK</key>
-		<data>
-		CWjzQpKVw8aAUW0uBlaq0vIXLBg=
-		</data>
-		<key>Frameworks/PradoSDK.framework/PradoSDK.xcconfig</key>
-		<data>
-		G5oB+Bl4WMbYp5i9w7KUkBQLP9Y=
-		</data>
-		<key>Frameworks/PradoSDK.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		UOD5Jwr4nPCt+/RRgrIly/GOi2c=
-		</data>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		3rIUbOcVRs8uwJpdFPOnjtI9xV8=
-		</data>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		0tXvS7zOFYSuWwsywQ74xZVG2vg=
-		</data>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		Mcau2YAbN1YPUiG88pRjkbmNBdo=
-		</data>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		Mu2ebXnOh6zi/XoJ3dc2YNZW7/I=
-		</data>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		92L2FwmhmMTYgRjz87jzcjak+OY=
-		</data>
 		<key>Headers/PradoApplovinAdapter.h</key>
 		<data>
 		kUvua01AkbQQ/kc+DQX+FJQ8to0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ptypHXN3Gd8LjxmFgMslNBj7Nrk=
+		/ZrmXNxjHQS8gafAd+xUiZ7YxDw=
 		</data>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hj+NWE5mSIngiLNn/RNsz4ZS/+E=
+		qIeEoxbYX24M7nfK8/2q37E7/wg=
 		</data>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		gWQ7x2LcZK8l3JN7EBvz1UnUlWc=
+		YyTIoI+z2CC7AifXStZjhmwFlp8=
 		</data>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		wall+vAtpwe1Xqo/ZyykS0SaTK4=
+		m9OsEXn0t6p3uIRxag0CxuQNqs8=
 		</data>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		gWQ7x2LcZK8l3JN7EBvz1UnUlWc=
+		YyTIoI+z2CC7AifXStZjhmwFlp8=
 		</data>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/G0Ofh34srXPR7eD5dp+tZSydcs=
+		+RzFkjjk4dqANFWm5/mlv/7MqvQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		I+yPcwiu7+Rb26twWrvHt4WmpuM=
+		163TrOU0GdwrQwHmaymm3ltXWsk=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -85,120 +49,13 @@
 	<dict>
 		<key>AdapterConfiguration.xcconfig</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nSgpMgN8g8VYvymUD6ick3UdcKg=
-			</data>
 			<key>hash2</key>
 			<data>
 			QLpN7RqYmou3fWksHo5+oVzZB7cJb7GC3jfGP5Km9Jg=
 			</data>
 		</dict>
-		<key>Frameworks/PradoSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a7mjadTQmALQgqltFWmYA45vd9g=
-			</data>
-			<key>hash2</key>
-			<data>
-			L33ziRc4hWP3HdAl8BsTtBaDo8ZoJLKazfS3MVAw/sE=
-			</data>
-		</dict>
-		<key>Frameworks/PradoSDK.framework/PradoSDK</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CWjzQpKVw8aAUW0uBlaq0vIXLBg=
-			</data>
-			<key>hash2</key>
-			<data>
-			H8H61E9j4uunMTYwfo9E58rdYbHSwg9ZjpMB9p6nU1Y=
-			</data>
-		</dict>
-		<key>Frameworks/PradoSDK.framework/PradoSDK.xcconfig</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G5oB+Bl4WMbYp5i9w7KUkBQLP9Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			eNB9nZPZ4LWeyIJOt/rE6dUaysCTAQ9JueWKfBVIeGg=
-			</data>
-		</dict>
-		<key>Frameworks/PradoSDK.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UOD5Jwr4nPCt+/RRgrIly/GOi2c=
-			</data>
-			<key>hash2</key>
-			<data>
-			6bdR0aY3/2Iir7FSJyRoDeYz0+VO6wA8TT5HGozVrho=
-			</data>
-		</dict>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3rIUbOcVRs8uwJpdFPOnjtI9xV8=
-			</data>
-			<key>hash2</key>
-			<data>
-			LgwRYOVmZsjB4XzsrXO1fJJlSdgMNAdjGUi/2mEIWAo=
-			</data>
-		</dict>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0tXvS7zOFYSuWwsywQ74xZVG2vg=
-			</data>
-			<key>hash2</key>
-			<data>
-			EHbpKbgeS7bzF3EMEx1Zn6+6qQ7Dk1F010Jy+dGE2mM=
-			</data>
-		</dict>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Mcau2YAbN1YPUiG88pRjkbmNBdo=
-			</data>
-			<key>hash2</key>
-			<data>
-			lNvXahacJ84sHErxv8Ob2I2AbsiXSTrpzevdd9Wvn18=
-			</data>
-		</dict>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Mu2ebXnOh6zi/XoJ3dc2YNZW7/I=
-			</data>
-			<key>hash2</key>
-			<data>
-			COQfd6XKocIgrinlKWaTB5ee6zrqI06l5ENZSbFzXNA=
-			</data>
-		</dict>
-		<key>Frameworks/PradoSDK.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			92L2FwmhmMTYgRjz87jzcjak+OY=
-			</data>
-			<key>hash2</key>
-			<data>
-			hjHWbWrMqnVGjJ6iTgRozrHsUgq0GNYN3roThOQFGLk=
-			</data>
-		</dict>
 		<key>Headers/PradoApplovinAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kUvua01AkbQQ/kc+DQX+FJQ8to0=
-			</data>
 			<key>hash2</key>
 			<data>
 			m/Nf4mUk0/ynmqHmwytkf4S35R0ZmWOChfRKk++MJkM=
@@ -206,76 +63,48 @@
 		</dict>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hj+NWE5mSIngiLNn/RNsz4ZS/+E=
-			</data>
 			<key>hash2</key>
 			<data>
-			AtrnMMMh8B/Dn2RjyyUPMPL1idv0WlDLAjf/Ku97T3s=
+			9WSyCxqIw/XpsVPHt0GhLIFrLiUfXtWwec84U/hNYRM=
 			</data>
 		</dict>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gWQ7x2LcZK8l3JN7EBvz1UnUlWc=
-			</data>
 			<key>hash2</key>
 			<data>
-			5xG+WUjmh8aUkF1kWSgZj+WhYkldTjHrC6JruCakAAY=
+			aXgHuw88DU5q+ar+crQ6RRiBlmuF5k3SVtUl2to5afg=
 			</data>
 		</dict>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wall+vAtpwe1Xqo/ZyykS0SaTK4=
-			</data>
 			<key>hash2</key>
 			<data>
-			5smb7GvXCwB+3nH3ddkGyDuiaOadho3wUxfRPa5VA0U=
+			2RtptH6SGsAMZamyMZ34Y8bUWb2kLxSc1KbRxfOE8fM=
 			</data>
 		</dict>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gWQ7x2LcZK8l3JN7EBvz1UnUlWc=
-			</data>
 			<key>hash2</key>
 			<data>
-			5xG+WUjmh8aUkF1kWSgZj+WhYkldTjHrC6JruCakAAY=
+			aXgHuw88DU5q+ar+crQ6RRiBlmuF5k3SVtUl2to5afg=
 			</data>
 		</dict>
 		<key>Modules/PradoApplovinAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/G0Ofh34srXPR7eD5dp+tZSydcs=
-			</data>
 			<key>hash2</key>
 			<data>
-			PBUsX4FC2fjD2Zp5uHLG60blIiiP6eDj969S6lO31kQ=
+			QZbvBBIFS86nYsdrhIOc6cRa+s2rMtMvf2L5DqPyL1k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I+yPcwiu7+Rb26twWrvHt4WmpuM=
-			</data>
 			<key>hash2</key>
 			<data>
-			EQAZCPFOMTJVANkvOUNhHgcsFJ+qBWgwCgBpg0+rEUU=
+			isDqyd/JjVy9usYbBwkpVlBie5r3L0wj5T6bxCM6oQE=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0RESd+++ZxZWQhIEMSOOvP7phYs=
-			</data>
 			<key>hash2</key>
 			<data>
 			pwgfFQbJDo5nMQDlwWHnZbi3piREbiC9S9bvrKgICLg=

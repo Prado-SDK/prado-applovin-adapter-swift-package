@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "PradoApplovinAdapter",
+    "printedName": "PradoApplovinAdapter",
     "children": [
       {
         "kind": "Import",
@@ -39,7 +39,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MAAdapterInitializationParameters",
-                "printedName": "AppLovinSDK.MAAdapterInitializationParameters",
+                "printedName": "any AppLovinSDK.MAAdapterInitializationParameters",
                 "usr": "c:objc(pl)MAAdapterInitializationParameters"
               },
               {
@@ -201,7 +201,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MAAdapterResponseParameters",
-                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
                 "usr": "c:objc(pl)MAAdapterResponseParameters"
               },
               {
@@ -213,7 +213,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MAAdViewAdapterDelegate",
-                "printedName": "AppLovinSDK.MAAdViewAdapterDelegate",
+                "printedName": "any AppLovinSDK.MAAdViewAdapterDelegate",
                 "usr": "c:objc(pl)MAAdViewAdapterDelegate"
               }
             ],
@@ -421,13 +421,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "MAAdapterResponseParameters",
-                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
                 "usr": "c:objc(pl)MAAdapterResponseParameters"
               },
               {
                 "kind": "TypeNominal",
                 "name": "MAInterstitialAdapterDelegate",
-                "printedName": "AppLovinSDK.MAInterstitialAdapterDelegate",
+                "printedName": "any AppLovinSDK.MAInterstitialAdapterDelegate",
                 "usr": "c:objc(pl)MAInterstitialAdapterDelegate"
               }
             ],
@@ -456,13 +456,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "MAAdapterResponseParameters",
-                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
                 "usr": "c:objc(pl)MAAdapterResponseParameters"
               },
               {
                 "kind": "TypeNominal",
                 "name": "MAInterstitialAdapterDelegate",
-                "printedName": "AppLovinSDK.MAInterstitialAdapterDelegate",
+                "printedName": "any AppLovinSDK.MAInterstitialAdapterDelegate",
                 "usr": "c:objc(pl)MAInterstitialAdapterDelegate"
               }
             ],
@@ -664,13 +664,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "MAAdapterResponseParameters",
-                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
                 "usr": "c:objc(pl)MAAdapterResponseParameters"
               },
               {
                 "kind": "TypeNominal",
                 "name": "MARewardedAdapterDelegate",
-                "printedName": "AppLovinSDK.MARewardedAdapterDelegate",
+                "printedName": "any AppLovinSDK.MARewardedAdapterDelegate",
                 "usr": "c:objc(pl)MARewardedAdapterDelegate"
               }
             ],
@@ -699,13 +699,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "MAAdapterResponseParameters",
-                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "printedName": "any AppLovinSDK.MAAdapterResponseParameters",
                 "usr": "c:objc(pl)MAAdapterResponseParameters"
               },
               {
                 "kind": "TypeNominal",
                 "name": "MARewardedAdapterDelegate",
-                "printedName": "AppLovinSDK.MARewardedAdapterDelegate",
+                "printedName": "any AppLovinSDK.MARewardedAdapterDelegate",
                 "usr": "c:objc(pl)MARewardedAdapterDelegate"
               }
             ],
@@ -969,9 +969,37 @@
             "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)initWithSdk:",
             "mangledName": "$s20PradoApplovinAdapter0a9MediationC0C3sdkACSo5ALSdkC_tcfc",
             "moduleName": "PradoApplovinAdapter",
+            "deprecated": true,
             "overriding": true,
             "implicit": true,
             "objc_name": "initWithSdk:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PradoMediationAdapter",
+                "printedName": "PradoApplovinAdapter.PradoMediationAdapter",
+                "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PradoApplovinAdapter@objc(cs)PradoMediationAdapter(im)init",
+            "mangledName": "$s20PradoApplovinAdapter0a9MediationC0CACycfc",
+            "moduleName": "PradoApplovinAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1023,6 +1051,20 @@
             "printedName": "PradoRewardedDelegate",
             "usr": "c:@M@PradoSDK@objc(pl)PradoRewardedDelegate",
             "mangledName": "$s8PradoSDK0A16RewardedDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1217,6 +1259,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1265,9 +1321,95 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKMetadata",
+        "printedName": "SDKMetadata",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20PradoApplovinAdapter11SDKMetadataO7versionSSvpZ",
+            "mangledName": "$s20PradoApplovinAdapter11SDKMetadataO7versionSSvpZ",
+            "moduleName": "PradoApplovinAdapter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PradoApplovinAdapter11SDKMetadataO7versionSSvgZ",
+                "mangledName": "$s20PradoApplovinAdapter11SDKMetadataO7versionSSvgZ",
+                "moduleName": "PradoApplovinAdapter",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20PradoApplovinAdapter11SDKMetadataO",
+        "mangledName": "$s20PradoApplovinAdapter11SDKMetadataO",
+        "moduleName": "PradoApplovinAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kfirraphaeleliyahu\/Development\/iOS\/kpadplayer-ios-applovin-adapter\/PradoApplovinAdapter\/PradoApplovinAdapter\/AutoGenerated\/SDKMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 128,
+      "length": 7,
+      "value": "\"2.0.1\""
+    }
+  ]
 }
