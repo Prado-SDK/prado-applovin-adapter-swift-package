@@ -14,13 +14,16 @@ let package = Package(
     ],
     dependencies: [
         // Dependency on core SDK
-        .package(url: "https://github.com/Prado-SDK/prado-sdk-swift-package.git", from: "10.1.3")
+        .package(url: "https://github.com/Prado-SDK/prado-sdk-swift-package.git", from: "10.1.3"),
+        // Dependency on mediation network SDK
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", "11.4.4"..<"14.0.0")
     ],
     targets: [
         .target(
             name: "PradoApplovinAdapterTarget",
             dependencies: [
                 .product(name: "PradoSDK", package: "prado-sdk-swift-package"),
+                .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
                 "PradoApplovinAdapter"
             ]
         ),
